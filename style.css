@@ -1,6 +1,8 @@
 * {
   border: 0;
   border-radius: 4px;
+  color: #585858;
+  font-weight: 300;
 }
 
 body {
@@ -58,4 +60,15 @@ p {
 button {
   height: 17px;
   margin: auto 10px auto 0;
+}
+
+@media (min-width: 700px) {
+  body {
+    margin: 0 150px;
+  }
+}
+@media (min-width: 1400px) {
+  body {
+    margin: 0 300px;
+  }
 }
